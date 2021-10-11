@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #978d91;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.notes {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+.notes .tools {
+  background-color: #ddb2c3;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notes .tools button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
